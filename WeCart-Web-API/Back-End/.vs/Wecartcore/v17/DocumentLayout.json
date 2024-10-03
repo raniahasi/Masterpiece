@@ -1,0 +1,647 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Orange\\Desktop\\Masterpiece important\\We Cart WEB API\\WeCart-Web-API\\Back-End\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{585809BE-BB8C-4F61-A96C-21E8295954FC}|Wecartcore\\Wecartcore.csproj|c:\\users\\orange\\desktop\\masterpiece important\\we cart web api\\wecart-web-api\\back-end\\wecartcore\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{585809BE-BB8C-4F61-A96C-21E8295954FC}|Wecartcore\\Wecartcore.csproj|solutionrelative:wecartcore\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{585809BE-BB8C-4F61-A96C-21E8295954FC}|Wecartcore\\Wecartcore.csproj|c:\\users\\orange\\desktop\\masterpiece important\\we cart web api\\wecart-web-api\\back-end\\wecartcore\\dtos\\registergoogledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{585809BE-BB8C-4F61-A96C-21E8295954FC}|Wecartcore\\Wecartcore.csproj|solutionrelative:wecartcore\\dtos\\registergoogledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{585809BE-BB8C-4F61-A96C-21E8295954FC}|Wecartcore\\Wecartcore.csproj|c:\\users\\orange\\desktop\\masterpiece important\\we cart web api\\wecart-web-api\\back-end\\wecartcore\\dto\\rania.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{585809BE-BB8C-4F61-A96C-21E8295954FC}|Wecartcore\\Wecartcore.csproj|solutionrelative:wecartcore\\dto\\rania.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{585809BE-BB8C-4F61-A96C-21E8295954FC}|Wecartcore\\Wecartcore.csproj|c:\\users\\orange\\desktop\\masterpiece important\\we cart web api\\wecart-web-api\\back-end\\wecartcore\\dto\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{585809BE-BB8C-4F61-A96C-21E8295954FC}|Wecartcore\\Wecartcore.csproj|solutionrelative:wecartcore\\dto\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{585809BE-BB8C-4F61-A96C-21E8295954FC}|Wecartcore\\Wecartcore.csproj|c:\\users\\orange\\desktop\\masterpiece important\\we cart web api\\wecart-web-api\\back-end\\wecartcore\\dtos rania\\commentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{585809BE-BB8C-4F61-A96C-21E8295954FC}|Wecartcore\\Wecartcore.csproj|solutionrelative:wecartcore\\dtos rania\\commentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{585809BE-BB8C-4F61-A96C-21E8295954FC}|Wecartcore\\Wecartcore.csproj|c:\\users\\orange\\desktop\\masterpiece important\\we cart web api\\wecart-web-api\\back-end\\wecartcore\\dtos\\dtoslogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{585809BE-BB8C-4F61-A96C-21E8295954FC}|Wecartcore\\Wecartcore.csproj|solutionrelative:wecartcore\\dtos\\dtoslogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{585809BE-BB8C-4F61-A96C-21E8295954FC}|Wecartcore\\Wecartcore.csproj|c:\\users\\orange\\desktop\\masterpiece important\\we cart web api\\wecart-web-api\\back-end\\wecartcore\\dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{585809BE-BB8C-4F61-A96C-21E8295954FC}|Wecartcore\\Wecartcore.csproj|solutionrelative:wecartcore\\dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{585809BE-BB8C-4F61-A96C-21E8295954FC}|Wecartcore\\Wecartcore.csproj|c:\\users\\orange\\desktop\\masterpiece important\\we cart web api\\wecart-web-api\\back-end\\wecartcore\\controllers\\users_bassamcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{585809BE-BB8C-4F61-A96C-21E8295954FC}|Wecartcore\\Wecartcore.csproj|solutionrelative:wecartcore\\controllers\\users_bassamcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{585809BE-BB8C-4F61-A96C-21E8295954FC}|Wecartcore\\Wecartcore.csproj|c:\\users\\orange\\desktop\\masterpiece important\\we cart web api\\wecart-web-api\\back-end\\wecartcore\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{585809BE-BB8C-4F61-A96C-21E8295954FC}|Wecartcore\\Wecartcore.csproj|solutionrelative:wecartcore\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{585809BE-BB8C-4F61-A96C-21E8295954FC}|Wecartcore\\Wecartcore.csproj|c:\\users\\orange\\desktop\\masterpiece important\\we cart web api\\wecart-web-api\\back-end\\wecartcore\\dto_esraa\\changepassworddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{585809BE-BB8C-4F61-A96C-21E8295954FC}|Wecartcore\\Wecartcore.csproj|solutionrelative:wecartcore\\dto_esraa\\changepassworddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{585809BE-BB8C-4F61-A96C-21E8295954FC}|Wecartcore\\Wecartcore.csproj|c:\\users\\orange\\desktop\\masterpiece important\\we cart web api\\wecart-web-api\\back-end\\wecartcore\\dto_esraa\\updatecoupondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{585809BE-BB8C-4F61-A96C-21E8295954FC}|Wecartcore\\Wecartcore.csproj|solutionrelative:wecartcore\\dto_esraa\\updatecoupondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{585809BE-BB8C-4F61-A96C-21E8295954FC}|Wecartcore\\Wecartcore.csproj|c:\\users\\orange\\desktop\\masterpiece important\\we cart web api\\wecart-web-api\\back-end\\wecartcore\\dto_esraa\\orderdetailsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{585809BE-BB8C-4F61-A96C-21E8295954FC}|Wecartcore\\Wecartcore.csproj|solutionrelative:wecartcore\\dto_esraa\\orderdetailsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{585809BE-BB8C-4F61-A96C-21E8295954FC}|Wecartcore\\Wecartcore.csproj|c:\\users\\orange\\desktop\\masterpiece important\\we cart web api\\wecart-web-api\\back-end\\wecartcore\\dto_esraa\\orderresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{585809BE-BB8C-4F61-A96C-21E8295954FC}|Wecartcore\\Wecartcore.csproj|solutionrelative:wecartcore\\dto_esraa\\orderresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{585809BE-BB8C-4F61-A96C-21E8295954FC}|Wecartcore\\Wecartcore.csproj|c:\\users\\orange\\desktop\\masterpiece important\\we cart web api\\wecart-web-api\\back-end\\wecartcore\\dto_esraa\\passwordhashermethod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{585809BE-BB8C-4F61-A96C-21E8295954FC}|Wecartcore\\Wecartcore.csproj|solutionrelative:wecartcore\\dto_esraa\\passwordhashermethod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{585809BE-BB8C-4F61-A96C-21E8295954FC}|Wecartcore\\Wecartcore.csproj|c:\\users\\orange\\desktop\\masterpiece important\\we cart web api\\wecart-web-api\\back-end\\wecartcore\\dto_esraa\\updateorderstatusdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{585809BE-BB8C-4F61-A96C-21E8295954FC}|Wecartcore\\Wecartcore.csproj|solutionrelative:wecartcore\\dto_esraa\\updateorderstatusdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{585809BE-BB8C-4F61-A96C-21E8295954FC}|Wecartcore\\Wecartcore.csproj|c:\\users\\orange\\desktop\\masterpiece important\\we cart web api\\wecart-web-api\\back-end\\wecartcore\\dto_esraa\\usersrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{585809BE-BB8C-4F61-A96C-21E8295954FC}|Wecartcore\\Wecartcore.csproj|solutionrelative:wecartcore\\dto_esraa\\usersrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{585809BE-BB8C-4F61-A96C-21E8295954FC}|Wecartcore\\Wecartcore.csproj|c:\\users\\orange\\desktop\\masterpiece important\\we cart web api\\wecart-web-api\\back-end\\wecartcore\\dtos\\dtosfetchmessages.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{585809BE-BB8C-4F61-A96C-21E8295954FC}|Wecartcore\\Wecartcore.csproj|solutionrelative:wecartcore\\dtos\\dtosfetchmessages.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{585809BE-BB8C-4F61-A96C-21E8295954FC}|Wecartcore\\Wecartcore.csproj|c:\\users\\orange\\desktop\\masterpiece important\\we cart web api\\wecart-web-api\\back-end\\wecartcore\\dtos\\dtoseditpassword.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{585809BE-BB8C-4F61-A96C-21E8295954FC}|Wecartcore\\Wecartcore.csproj|solutionrelative:wecartcore\\dtos\\dtoseditpassword.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{585809BE-BB8C-4F61-A96C-21E8295954FC}|Wecartcore\\Wecartcore.csproj|c:\\users\\orange\\desktop\\masterpiece important\\we cart web api\\wecart-web-api\\back-end\\wecartcore\\dtos\\createpassworddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{585809BE-BB8C-4F61-A96C-21E8295954FC}|Wecartcore\\Wecartcore.csproj|solutionrelative:wecartcore\\dtos\\createpassworddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{585809BE-BB8C-4F61-A96C-21E8295954FC}|Wecartcore\\Wecartcore.csproj|c:\\users\\orange\\desktop\\masterpiece important\\we cart web api\\wecart-web-api\\back-end\\wecartcore\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{585809BE-BB8C-4F61-A96C-21E8295954FC}|Wecartcore\\Wecartcore.csproj|solutionrelative:wecartcore\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{585809BE-BB8C-4F61-A96C-21E8295954FC}|Wecartcore\\Wecartcore.csproj|c:\\users\\orange\\desktop\\masterpiece important\\we cart web api\\wecart-web-api\\back-end\\wecartcore\\services\\stripepaymentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{585809BE-BB8C-4F61-A96C-21E8295954FC}|Wecartcore\\Wecartcore.csproj|solutionrelative:wecartcore\\services\\stripepaymentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{585809BE-BB8C-4F61-A96C-21E8295954FC}|Wecartcore\\Wecartcore.csproj|c:\\users\\orange\\desktop\\masterpiece important\\we cart web api\\wecart-web-api\\back-end\\wecartcore\\controllers\\paymentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{585809BE-BB8C-4F61-A96C-21E8295954FC}|Wecartcore\\Wecartcore.csproj|solutionrelative:wecartcore\\controllers\\paymentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{585809BE-BB8C-4F61-A96C-21E8295954FC}|Wecartcore\\Wecartcore.csproj|c:\\users\\orange\\desktop\\masterpiece important\\we cart web api\\wecart-web-api\\back-end\\wecartcore\\controllers\\userfillautomaticcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{585809BE-BB8C-4F61-A96C-21E8295954FC}|Wecartcore\\Wecartcore.csproj|solutionrelative:wecartcore\\controllers\\userfillautomaticcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{585809BE-BB8C-4F61-A96C-21E8295954FC}|Wecartcore\\Wecartcore.csproj|c:\\users\\orange\\desktop\\masterpiece important\\we cart web api\\wecart-web-api\\back-end\\wecartcore\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{585809BE-BB8C-4F61-A96C-21E8295954FC}|Wecartcore\\Wecartcore.csproj|solutionrelative:wecartcore\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{585809BE-BB8C-4F61-A96C-21E8295954FC}|Wecartcore\\Wecartcore.csproj|c:\\users\\orange\\desktop\\masterpiece important\\we cart web api\\wecart-web-api\\back-end\\wecartcore\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{585809BE-BB8C-4F61-A96C-21E8295954FC}|Wecartcore\\Wecartcore.csproj|solutionrelative:wecartcore\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{585809BE-BB8C-4F61-A96C-21E8295954FC}|Wecartcore\\Wecartcore.csproj|c:\\users\\orange\\desktop\\masterpiece important\\we cart web api\\wecart-web-api\\back-end\\wecartcore\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{585809BE-BB8C-4F61-A96C-21E8295954FC}|Wecartcore\\Wecartcore.csproj|solutionrelative:wecartcore\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{585809BE-BB8C-4F61-A96C-21E8295954FC}|Wecartcore\\Wecartcore.csproj|c:\\users\\orange\\desktop\\masterpiece important\\we cart web api\\wecart-web-api\\back-end\\wecartcore\\dtos\\smtpsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{585809BE-BB8C-4F61-A96C-21E8295954FC}|Wecartcore\\Wecartcore.csproj|solutionrelative:wecartcore\\dtos\\smtpsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{585809BE-BB8C-4F61-A96C-21E8295954FC}|Wecartcore\\Wecartcore.csproj|c:\\users\\orange\\desktop\\masterpiece important\\we cart web api\\wecart-web-api\\back-end\\wecartcore\\dtos\\dtoscategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{585809BE-BB8C-4F61-A96C-21E8295954FC}|Wecartcore\\Wecartcore.csproj|solutionrelative:wecartcore\\dtos\\dtoscategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Orange\\Desktop\\flowers project\\E-Commerce-Flower\\E-Commerce\\Back-End\\E-Commerce\\E-Commerce\\DTOs\\DTOsCategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Orange\\Desktop\\flowers project\\E-Commerce-Flower\\E-Commerce\\Back-End\\E-Commerce\\E-Commerce\\Controllers\\CategoriesController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{585809BE-BB8C-4F61-A96C-21E8295954FC}|Wecartcore\\Wecartcore.csproj|c:\\users\\orange\\desktop\\masterpiece important\\we cart web api\\wecart-web-api\\back-end\\wecartcore\\dtos\\dtossendmessageadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{585809BE-BB8C-4F61-A96C-21E8295954FC}|Wecartcore\\Wecartcore.csproj|solutionrelative:wecartcore\\dtos\\dtossendmessageadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{585809BE-BB8C-4F61-A96C-21E8295954FC}|Wecartcore\\Wecartcore.csproj|c:\\users\\orange\\desktop\\masterpiece important\\we cart web api\\wecart-web-api\\back-end\\wecartcore\\dtos\\dtossendmessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{585809BE-BB8C-4F61-A96C-21E8295954FC}|Wecartcore\\Wecartcore.csproj|solutionrelative:wecartcore\\dtos\\dtossendmessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{585809BE-BB8C-4F61-A96C-21E8295954FC}|Wecartcore\\Wecartcore.csproj|c:\\users\\orange\\desktop\\masterpiece important\\we cart web api\\wecart-web-api\\back-end\\wecartcore\\dtos\\dtosotp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{585809BE-BB8C-4F61-A96C-21E8295954FC}|Wecartcore\\Wecartcore.csproj|solutionrelative:wecartcore\\dtos\\dtosotp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{585809BE-BB8C-4F61-A96C-21E8295954FC}|Wecartcore\\Wecartcore.csproj|c:\\users\\orange\\desktop\\masterpiece important\\we cart web api\\wecart-web-api\\back-end\\wecartcore\\dtos\\dtoscategorybassam.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{585809BE-BB8C-4F61-A96C-21E8295954FC}|Wecartcore\\Wecartcore.csproj|solutionrelative:wecartcore\\dtos\\dtoscategorybassam.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{585809BE-BB8C-4F61-A96C-21E8295954FC}|Wecartcore\\Wecartcore.csproj|c:\\users\\orange\\desktop\\masterpiece important\\we cart web api\\wecart-web-api\\back-end\\wecartcore\\dtos\\couponresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{585809BE-BB8C-4F61-A96C-21E8295954FC}|Wecartcore\\Wecartcore.csproj|solutionrelative:wecartcore\\dtos\\couponresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{585809BE-BB8C-4F61-A96C-21E8295954FC}|Wecartcore\\Wecartcore.csproj|c:\\users\\orange\\desktop\\masterpiece important\\we cart web api\\wecart-web-api\\back-end\\wecartcore\\dtos\\contactput.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{585809BE-BB8C-4F61-A96C-21E8295954FC}|Wecartcore\\Wecartcore.csproj|solutionrelative:wecartcore\\dtos\\contactput.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{585809BE-BB8C-4F61-A96C-21E8295954FC}|Wecartcore\\Wecartcore.csproj|c:\\users\\orange\\desktop\\masterpiece important\\we cart web api\\wecart-web-api\\back-end\\wecartcore\\dtos\\contactpost.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{585809BE-BB8C-4F61-A96C-21E8295954FC}|Wecartcore\\Wecartcore.csproj|solutionrelative:wecartcore\\dtos\\contactpost.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{585809BE-BB8C-4F61-A96C-21E8295954FC}|Wecartcore\\Wecartcore.csproj|c:\\users\\orange\\desktop\\masterpiece important\\we cart web api\\wecart-web-api\\back-end\\wecartcore\\models\\mydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{585809BE-BB8C-4F61-A96C-21E8295954FC}|Wecartcore\\Wecartcore.csproj|solutionrelative:wecartcore\\models\\mydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ChangePasswordDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\Masterpiece important\\We Cart WEB API\\WeCart-Web-API\\Back-End\\Wecartcore\\Dto_Esraa\\ChangePasswordDTO.cs",
+              "RelativeDocumentMoniker": "Wecartcore\\Dto_Esraa\\ChangePasswordDTO.cs",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\Masterpiece important\\We Cart WEB API\\WeCart-Web-API\\Back-End\\Wecartcore\\Dto_Esraa\\ChangePasswordDTO.cs",
+              "RelativeToolTip": "Wecartcore\\Dto_Esraa\\ChangePasswordDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-14T12:43:18.693Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DTOsLogin.cs",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\Masterpiece important\\We Cart WEB API\\WeCart-Web-API\\Back-End\\Wecartcore\\DTOs\\DTOsLogin.cs",
+              "RelativeDocumentMoniker": "Wecartcore\\DTOs\\DTOsLogin.cs",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\Masterpiece important\\We Cart WEB API\\WeCart-Web-API\\Back-End\\Wecartcore\\DTOs\\DTOsLogin.cs",
+              "RelativeToolTip": "Wecartcore\\DTOs\\DTOsLogin.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-14T12:46:36.339Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "RegisterGoogleDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\Masterpiece important\\We Cart WEB API\\WeCart-Web-API\\Back-End\\Wecartcore\\DTOs\\RegisterGoogleDTO.cs",
+              "RelativeDocumentMoniker": "Wecartcore\\DTOs\\RegisterGoogleDTO.cs",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\Masterpiece important\\We Cart WEB API\\WeCart-Web-API\\Back-End\\Wecartcore\\DTOs\\RegisterGoogleDTO.cs",
+              "RelativeToolTip": "Wecartcore\\DTOs\\RegisterGoogleDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-14T12:49:22.124Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProductsController.cs",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\Masterpiece important\\We Cart WEB API\\WeCart-Web-API\\Back-End\\Wecartcore\\Controllers\\ProductsController.cs",
+              "RelativeDocumentMoniker": "Wecartcore\\Controllers\\ProductsController.cs",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\Masterpiece important\\We Cart WEB API\\WeCart-Web-API\\Back-End\\Wecartcore\\Controllers\\ProductsController.cs",
+              "RelativeToolTip": "Wecartcore\\Controllers\\ProductsController.cs",
+              "ViewState": "AQIAAPkAAAAAAAAAAAAIwCUBAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-22T10:42:50.885Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ProductDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\Masterpiece important\\We Cart WEB API\\WeCart-Web-API\\Back-End\\Wecartcore\\DTO\\ProductDTO.cs",
+              "RelativeDocumentMoniker": "Wecartcore\\DTO\\ProductDTO.cs",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\Masterpiece important\\We Cart WEB API\\WeCart-Web-API\\Back-End\\Wecartcore\\DTO\\ProductDTO.cs",
+              "RelativeToolTip": "Wecartcore\\DTO\\ProductDTO.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAABsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-03T16:48:06.002Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "rania.cs",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\Masterpiece important\\We Cart WEB API\\WeCart-Web-API\\Back-End\\Wecartcore\\DTO\\rania.cs",
+              "RelativeDocumentMoniker": "Wecartcore\\DTO\\rania.cs",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\Masterpiece important\\We Cart WEB API\\WeCart-Web-API\\Back-End\\Wecartcore\\DTO\\rania.cs",
+              "RelativeToolTip": "Wecartcore\\DTO\\rania.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-13T11:37:44.876Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CommentDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\Masterpiece important\\We Cart WEB API\\WeCart-Web-API\\Back-End\\Wecartcore\\DTOS rania\\CommentDTO.cs",
+              "RelativeDocumentMoniker": "Wecartcore\\DTOS rania\\CommentDTO.cs",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\Masterpiece important\\We Cart WEB API\\WeCart-Web-API\\Back-End\\Wecartcore\\DTOS rania\\CommentDTO.cs",
+              "RelativeToolTip": "Wecartcore\\DTOS rania\\CommentDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-29T07:18:32.993Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "UserDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\Masterpiece important\\We Cart WEB API\\WeCart-Web-API\\Back-End\\Wecartcore\\DTOs\\UserDTO.cs",
+              "RelativeDocumentMoniker": "Wecartcore\\DTOs\\UserDTO.cs",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\Masterpiece important\\We Cart WEB API\\WeCart-Web-API\\Back-End\\Wecartcore\\DTOs\\UserDTO.cs",
+              "RelativeToolTip": "Wecartcore\\DTOs\\UserDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-14T12:49:40.076Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Users_BassamController.cs",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\Masterpiece important\\We Cart WEB API\\WeCart-Web-API\\Back-End\\Wecartcore\\Controllers\\Users_BassamController.cs",
+              "RelativeDocumentMoniker": "Wecartcore\\Controllers\\Users_BassamController.cs",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\Masterpiece important\\We Cart WEB API\\WeCart-Web-API\\Back-End\\Wecartcore\\Controllers\\Users_BassamController.cs",
+              "RelativeToolTip": "Wecartcore\\Controllers\\Users_BassamController.cs",
+              "ViewState": "AQIAAP0AAAAAAAAAAAAqwBwBAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-22T10:43:00.573Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "OrderController.cs",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\Masterpiece important\\We Cart WEB API\\WeCart-Web-API\\Back-End\\Wecartcore\\Controllers\\OrderController.cs",
+              "RelativeDocumentMoniker": "Wecartcore\\Controllers\\OrderController.cs",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\Masterpiece important\\We Cart WEB API\\WeCart-Web-API\\Back-End\\Wecartcore\\Controllers\\OrderController.cs",
+              "RelativeToolTip": "Wecartcore\\Controllers\\OrderController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAFIAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-22T10:42:41.703Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "UpdateCouponDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\Masterpiece important\\We Cart WEB API\\WeCart-Web-API\\Back-End\\Wecartcore\\Dto_Esraa\\UpdateCouponDTO.cs",
+              "RelativeDocumentMoniker": "Wecartcore\\Dto_Esraa\\UpdateCouponDTO.cs",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\Masterpiece important\\We Cart WEB API\\WeCart-Web-API\\Back-End\\Wecartcore\\Dto_Esraa\\UpdateCouponDTO.cs",
+              "RelativeToolTip": "Wecartcore\\Dto_Esraa\\UpdateCouponDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-14T12:44:23.701Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "OrderDetailsDto.cs",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\Masterpiece important\\We Cart WEB API\\WeCart-Web-API\\Back-End\\Wecartcore\\Dto_Esraa\\OrderDetailsDto.cs",
+              "RelativeDocumentMoniker": "Wecartcore\\Dto_Esraa\\OrderDetailsDto.cs",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\Masterpiece important\\We Cart WEB API\\WeCart-Web-API\\Back-End\\Wecartcore\\Dto_Esraa\\OrderDetailsDto.cs",
+              "RelativeToolTip": "Wecartcore\\Dto_Esraa\\OrderDetailsDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACwAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-14T12:43:24.278Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "OrderResponseDto.cs",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\Masterpiece important\\We Cart WEB API\\WeCart-Web-API\\Back-End\\Wecartcore\\Dto_Esraa\\OrderResponseDto.cs",
+              "RelativeDocumentMoniker": "Wecartcore\\Dto_Esraa\\OrderResponseDto.cs",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\Masterpiece important\\We Cart WEB API\\WeCart-Web-API\\Back-End\\Wecartcore\\Dto_Esraa\\OrderResponseDto.cs",
+              "RelativeToolTip": "Wecartcore\\Dto_Esraa\\OrderResponseDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-14T12:44:05.983Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "PasswordHasherMethod.cs",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\Masterpiece important\\We Cart WEB API\\WeCart-Web-API\\Back-End\\Wecartcore\\Dto_Esraa\\PasswordHasherMethod.cs",
+              "RelativeDocumentMoniker": "Wecartcore\\Dto_Esraa\\PasswordHasherMethod.cs",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\Masterpiece important\\We Cart WEB API\\WeCart-Web-API\\Back-End\\Wecartcore\\Dto_Esraa\\PasswordHasherMethod.cs",
+              "RelativeToolTip": "Wecartcore\\Dto_Esraa\\PasswordHasherMethod.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-14T12:44:18.049Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "UpdateOrderStatusDto.cs",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\Masterpiece important\\We Cart WEB API\\WeCart-Web-API\\Back-End\\Wecartcore\\Dto_Esraa\\UpdateOrderStatusDto.cs",
+              "RelativeDocumentMoniker": "Wecartcore\\Dto_Esraa\\UpdateOrderStatusDto.cs",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\Masterpiece important\\We Cart WEB API\\WeCart-Web-API\\Back-End\\Wecartcore\\Dto_Esraa\\UpdateOrderStatusDto.cs",
+              "RelativeToolTip": "Wecartcore\\Dto_Esraa\\UpdateOrderStatusDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-14T12:44:28.138Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "UsersRequestDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\Masterpiece important\\We Cart WEB API\\WeCart-Web-API\\Back-End\\Wecartcore\\Dto_Esraa\\UsersRequestDTO.cs",
+              "RelativeDocumentMoniker": "Wecartcore\\Dto_Esraa\\UsersRequestDTO.cs",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\Masterpiece important\\We Cart WEB API\\WeCart-Web-API\\Back-End\\Wecartcore\\Dto_Esraa\\UsersRequestDTO.cs",
+              "RelativeToolTip": "Wecartcore\\Dto_Esraa\\UsersRequestDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-14T12:44:33.171Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "DTOsFetchMessages.cs",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\Masterpiece important\\We Cart WEB API\\WeCart-Web-API\\Back-End\\Wecartcore\\DTOs\\DTOsFetchMessages.cs",
+              "RelativeDocumentMoniker": "Wecartcore\\DTOs\\DTOsFetchMessages.cs",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\Masterpiece important\\We Cart WEB API\\WeCart-Web-API\\Back-End\\Wecartcore\\DTOs\\DTOsFetchMessages.cs",
+              "RelativeToolTip": "Wecartcore\\DTOs\\DTOsFetchMessages.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-14T12:46:32.541Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "DTOsEditPassword.cs",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\Masterpiece important\\We Cart WEB API\\WeCart-Web-API\\Back-End\\Wecartcore\\DTOs\\DTOsEditPassword.cs",
+              "RelativeDocumentMoniker": "Wecartcore\\DTOs\\DTOsEditPassword.cs",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\Masterpiece important\\We Cart WEB API\\WeCart-Web-API\\Back-End\\Wecartcore\\DTOs\\DTOsEditPassword.cs",
+              "RelativeToolTip": "Wecartcore\\DTOs\\DTOsEditPassword.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-14T12:46:28.917Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "CreatePasswordDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\Masterpiece important\\We Cart WEB API\\WeCart-Web-API\\Back-End\\Wecartcore\\DTOs\\CreatePasswordDTO.cs",
+              "RelativeDocumentMoniker": "Wecartcore\\DTOs\\CreatePasswordDTO.cs",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\Masterpiece important\\We Cart WEB API\\WeCart-Web-API\\Back-End\\Wecartcore\\DTOs\\CreatePasswordDTO.cs",
+              "RelativeToolTip": "Wecartcore\\DTOs\\CreatePasswordDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-14T12:45:55.329Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\Masterpiece important\\We Cart WEB API\\WeCart-Web-API\\Back-End\\Wecartcore\\Program.cs",
+              "RelativeDocumentMoniker": "Wecartcore\\Program.cs",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\Masterpiece important\\We Cart WEB API\\WeCart-Web-API\\Back-End\\Wecartcore\\Program.cs",
+              "RelativeToolTip": "Wecartcore\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-22T10:35:03.678Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "PaymentController.cs",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\Masterpiece important\\We Cart WEB API\\WeCart-Web-API\\Back-End\\Wecartcore\\Controllers\\PaymentController.cs",
+              "RelativeDocumentMoniker": "Wecartcore\\Controllers\\PaymentController.cs",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\Masterpiece important\\We Cart WEB API\\WeCart-Web-API\\Back-End\\Wecartcore\\Controllers\\PaymentController.cs",
+              "RelativeToolTip": "Wecartcore\\Controllers\\PaymentController.cs",
+              "ViewState": "AQIAADIAAAAAAAAAAAAUwFAAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-21T08:05:28.166Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "StripePaymentService.cs",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\Masterpiece important\\We Cart WEB API\\WeCart-Web-API\\Back-End\\Wecartcore\\Services\\StripePaymentService.cs",
+              "RelativeDocumentMoniker": "Wecartcore\\Services\\StripePaymentService.cs",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\Masterpiece important\\We Cart WEB API\\WeCart-Web-API\\Back-End\\Wecartcore\\Services\\StripePaymentService.cs",
+              "RelativeToolTip": "Wecartcore\\Services\\StripePaymentService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-22T12:39:50.039Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "UserFillAutomaticController.cs",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\Masterpiece important\\We Cart WEB API\\WeCart-Web-API\\Back-End\\Wecartcore\\Controllers\\UserFillAutomaticController.cs",
+              "RelativeDocumentMoniker": "Wecartcore\\Controllers\\UserFillAutomaticController.cs",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\Masterpiece important\\We Cart WEB API\\WeCart-Web-API\\Back-End\\Wecartcore\\Controllers\\UserFillAutomaticController.cs",
+              "RelativeToolTip": "Wecartcore\\Controllers\\UserFillAutomaticController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-22T10:42:56.563Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "CategoriesController.cs",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\Masterpiece important\\We Cart WEB API\\WeCart-Web-API\\Back-End\\Wecartcore\\Controllers\\CategoriesController.cs",
+              "RelativeDocumentMoniker": "Wecartcore\\Controllers\\CategoriesController.cs",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\Masterpiece important\\We Cart WEB API\\WeCart-Web-API\\Back-End\\Wecartcore\\Controllers\\CategoriesController.cs",
+              "RelativeToolTip": "Wecartcore\\Controllers\\CategoriesController.cs",
+              "ViewState": "AQIAAKgAAAAAAAAAAAAiwMoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-22T10:42:29.692Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "CartController.cs",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\Masterpiece important\\We Cart WEB API\\WeCart-Web-API\\Back-End\\Wecartcore\\Controllers\\CartController.cs",
+              "RelativeDocumentMoniker": "Wecartcore\\Controllers\\CartController.cs",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\Masterpiece important\\We Cart WEB API\\WeCart-Web-API\\Back-End\\Wecartcore\\Controllers\\CartController.cs",
+              "RelativeToolTip": "Wecartcore\\Controllers\\CartController.cs",
+              "ViewState": "AQIAAB4BAAAAAAAAAAAcwD8BAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-22T10:42:24.799Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\Masterpiece important\\We Cart WEB API\\WeCart-Web-API\\Back-End\\Wecartcore\\appsettings.json",
+              "RelativeDocumentMoniker": "Wecartcore\\appsettings.json",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\Masterpiece important\\We Cart WEB API\\WeCart-Web-API\\Back-End\\Wecartcore\\appsettings.json",
+              "RelativeToolTip": "Wecartcore\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-09-22T10:35:52.336Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "MyDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\Masterpiece important\\We Cart WEB API\\WeCart-Web-API\\Back-End\\Wecartcore\\Models\\MyDbContext.cs",
+              "RelativeDocumentMoniker": "Wecartcore\\Models\\MyDbContext.cs",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\Masterpiece important\\We Cart WEB API\\WeCart-Web-API\\Back-End\\Wecartcore\\Models\\MyDbContext.cs",
+              "RelativeToolTip": "Wecartcore\\Models\\MyDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-22T10:44:02.644Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "SmtpSettings.cs",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\Masterpiece important\\We Cart WEB API\\WeCart-Web-API\\Back-End\\Wecartcore\\DTOs\\SmtpSettings.cs",
+              "RelativeDocumentMoniker": "Wecartcore\\DTOs\\SmtpSettings.cs",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\Masterpiece important\\We Cart WEB API\\WeCart-Web-API\\Back-End\\Wecartcore\\DTOs\\SmtpSettings.cs",
+              "RelativeToolTip": "Wecartcore\\DTOs\\SmtpSettings.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-14T12:49:27.809Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "DTOsCategory.cs",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\Masterpiece important\\We Cart WEB API\\WeCart-Web-API\\Back-End\\Wecartcore\\DTOs\\DTOsCategory.cs",
+              "RelativeDocumentMoniker": "Wecartcore\\DTOs\\DTOsCategory.cs",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\Masterpiece important\\We Cart WEB API\\WeCart-Web-API\\Back-End\\Wecartcore\\DTOs\\DTOsCategory.cs",
+              "RelativeToolTip": "Wecartcore\\DTOs\\DTOsCategory.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-14T12:46:20.448Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "CategoriesController.cs",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\flowers project\\E-Commerce-Flower\\E-Commerce\\Back-End\\E-Commerce\\E-Commerce\\Controllers\\CategoriesController.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\flowers project\\E-Commerce-Flower\\E-Commerce\\Back-End\\E-Commerce\\E-Commerce\\Controllers\\CategoriesController.cs",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\flowers project\\E-Commerce-Flower\\E-Commerce\\Back-End\\E-Commerce\\E-Commerce\\Controllers\\CategoriesController.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\flowers project\\E-Commerce-Flower\\E-Commerce\\Back-End\\E-Commerce\\E-Commerce\\Controllers\\CategoriesController.cs",
+              "ViewState": "AQIAACYAAAAAAAAAAAAQwEMAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-16T13:42:03.01Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "DTOsCategory.cs",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\flowers project\\E-Commerce-Flower\\E-Commerce\\Back-End\\E-Commerce\\E-Commerce\\DTOs\\DTOsCategory.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\flowers project\\E-Commerce-Flower\\E-Commerce\\Back-End\\E-Commerce\\E-Commerce\\DTOs\\DTOsCategory.cs",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\flowers project\\E-Commerce-Flower\\E-Commerce\\Back-End\\E-Commerce\\E-Commerce\\DTOs\\DTOsCategory.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\flowers project\\E-Commerce-Flower\\E-Commerce\\Back-End\\E-Commerce\\E-Commerce\\DTOs\\DTOsCategory.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-16T13:46:05.303Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "DTOsSendMessageAdmin.cs",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\Masterpiece important\\We Cart WEB API\\WeCart-Web-API\\Back-End\\Wecartcore\\DTOs\\DTOsSendMessageAdmin.cs",
+              "RelativeDocumentMoniker": "Wecartcore\\DTOs\\DTOsSendMessageAdmin.cs",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\Masterpiece important\\We Cart WEB API\\WeCart-Web-API\\Back-End\\Wecartcore\\DTOs\\DTOsSendMessageAdmin.cs",
+              "RelativeToolTip": "Wecartcore\\DTOs\\DTOsSendMessageAdmin.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-14T12:46:47.949Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "DTOsSendMessage.cs",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\Masterpiece important\\We Cart WEB API\\WeCart-Web-API\\Back-End\\Wecartcore\\DTOs\\DTOsSendMessage.cs",
+              "RelativeDocumentMoniker": "Wecartcore\\DTOs\\DTOsSendMessage.cs",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\Masterpiece important\\We Cart WEB API\\WeCart-Web-API\\Back-End\\Wecartcore\\DTOs\\DTOsSendMessage.cs",
+              "RelativeToolTip": "Wecartcore\\DTOs\\DTOsSendMessage.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-14T12:46:43.934Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "DTOsOTP.cs",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\Masterpiece important\\We Cart WEB API\\WeCart-Web-API\\Back-End\\Wecartcore\\DTOs\\DTOsOTP.cs",
+              "RelativeDocumentMoniker": "Wecartcore\\DTOs\\DTOsOTP.cs",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\Masterpiece important\\We Cart WEB API\\WeCart-Web-API\\Back-End\\Wecartcore\\DTOs\\DTOsOTP.cs",
+              "RelativeToolTip": "Wecartcore\\DTOs\\DTOsOTP.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-14T12:46:40.257Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "DTOsCategoryBassam.cs",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\Masterpiece important\\We Cart WEB API\\WeCart-Web-API\\Back-End\\Wecartcore\\DTOs\\DTOsCategoryBassam.cs",
+              "RelativeDocumentMoniker": "Wecartcore\\DTOs\\DTOsCategoryBassam.cs",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\Masterpiece important\\We Cart WEB API\\WeCart-Web-API\\Back-End\\Wecartcore\\DTOs\\DTOsCategoryBassam.cs",
+              "RelativeToolTip": "Wecartcore\\DTOs\\DTOsCategoryBassam.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-14T12:46:24.768Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "CouponResponseDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\Masterpiece important\\We Cart WEB API\\WeCart-Web-API\\Back-End\\Wecartcore\\DTOs\\CouponResponseDTO.cs",
+              "RelativeDocumentMoniker": "Wecartcore\\DTOs\\CouponResponseDTO.cs",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\Masterpiece important\\We Cart WEB API\\WeCart-Web-API\\Back-End\\Wecartcore\\DTOs\\CouponResponseDTO.cs",
+              "RelativeToolTip": "Wecartcore\\DTOs\\CouponResponseDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-14T12:45:51.511Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "contactPUT.cs",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\Masterpiece important\\We Cart WEB API\\WeCart-Web-API\\Back-End\\Wecartcore\\DTOs\\contactPUT.cs",
+              "RelativeDocumentMoniker": "Wecartcore\\DTOs\\contactPUT.cs",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\Masterpiece important\\We Cart WEB API\\WeCart-Web-API\\Back-End\\Wecartcore\\DTOs\\contactPUT.cs",
+              "RelativeToolTip": "Wecartcore\\DTOs\\contactPUT.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-14T12:45:47.263Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "contactPOST.cs",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\Masterpiece important\\We Cart WEB API\\WeCart-Web-API\\Back-End\\Wecartcore\\DTOs\\contactPOST.cs",
+              "RelativeDocumentMoniker": "Wecartcore\\DTOs\\contactPOST.cs",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\Masterpiece important\\We Cart WEB API\\WeCart-Web-API\\Back-End\\Wecartcore\\DTOs\\contactPOST.cs",
+              "RelativeToolTip": "Wecartcore\\DTOs\\contactPOST.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-14T12:45:36.937Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

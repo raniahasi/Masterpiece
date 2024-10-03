@@ -1,0 +1,909 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Electro - HTML Ecommerce Template</title>
+
+    <!-- Google font -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700"
+      rel="stylesheet"
+    />
+
+    <!-- Bootstrap -->
+    <link type="text/css" rel="stylesheet" href="css2/bootstrap.min.css" />
+
+    <!-- Slick -->
+    <link type="text/css" rel="stylesheet" href="css2/slick.css" />
+    <link type="text/css" rel="stylesheet" href="css2/slick-theme.css" />
+
+    <!-- nouislider -->
+    <link type="text/css" rel="stylesheet" href="css2/nouislider.min.css" />
+
+    <!-- Font Awesome Icon -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <!-- Custom stylesheet -->
+    <link type="text/css" rel="stylesheet" href="css2/style.css" />
+
+  
+    <style>
+      #header {
+        background-color: #222;
+      }
+      #top-header {
+        background-color: #222;
+      }
+      .main .categories .category img {
+        border-radius: 10px;
+      }
+      footer {
+        background-color: #222;
+        color: white;
+        padding-top: 80px;
+      }
+      .bg-dark {
+        background-color: #222 !important;
+      }
+      footer .payment-options img {
+        margin: 5px;
+        width: 50px;
+        height: 50px;
+        object-fit: contain;
+      }
+      footer .footer-links {
+        list-style-type: none;
+        padding: 0;
+        margin-top: 20px;
+      }
+      footer .footer-links li {
+        display: inline;
+        margin: 0 10px;
+      }
+      footer .footer-links li a {
+        text-decoration: none;
+        color: white;
+      }
+      .col-md-9 {
+        font-size: smaller;
+      }
+      #navbarNav {
+        font-size: smaller;
+      }
+      .cart {
+        width: 40px;
+        height: 40px;
+      }
+      .category-item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+      .category-item img {
+        width: 60%;
+        height: 195px;
+        object-fit: cover;
+      }
+      .category-item p {
+        margin-top: 10px;
+        font-weight: bold;
+        text-align: center;
+        font-size: small;
+        color: #545454;
+      }
+      .mb-5 {
+        font-size: 15px;
+        color: #323131de;
+        display: flex;
+        margin-top: -80px;
+        justify-content: center;
+        font-family: Poppins-Medium;
+      }
+      .links {
+        color: #383838;
+      }
+      .main-content {
+        margin-top: 150px;
+      }
+      button.add-to-cart-btn {
+        margin-top: 19%;
+        margin-left: -12%;
+}
+      
+    </style>
+  </head>
+  <body>
+  <!-- HEADER -->
+  <header>
+    <div id="top-header">
+      <div class="container">
+      <ul class="header-links pull-left">
+        <li>
+        <a href="#"><i class="fa fa-phone"></i> +962772382250</a>
+        </li>
+        <li>
+        <a href="#"><i class="fa fa-envelope-o"></i> Info@WeCart.com</a>
+        </li>
+        <li>
+        <a href="#"><i class="fa fa-map-marker"></i> 21110 Irbid</a>
+        </li>
+      </ul>
+      <ul class="header-links pull-right">
+        <li>
+        <a href="#"><i class="fa fa-language"></i> EN/AR</a>
+        </li>
+        <li>
+        <a href="#" id="accountBtn"
+          ><i class="fa fa-user-o"></i>
+          <span id="accountText">My Account</span></a
+        >
+        </li>
+        <li id="logoutBtn" style="display: none">
+        <a href="#"><i class="fa fa-sign-out"></i> Logout</a>
+        </li>
+      </ul>
+      </div>
+    </div>
+    <div id="header">
+      <div class="container">
+      <div class="row">
+        <div class="col-md-3">
+        <div class="header-logo">
+          <a href="#" class="logo">
+          <img src="./img/logo.png" alt="" />
+          </a>
+        </div>
+        </div>
+        <div class="col-md-6">
+        <div class="header-search">
+          <form>
+          <select class="input-select" id="category-select"></select>
+          <input
+            class="input"
+            placeholder="Search here"
+            id="search-input"
+          />
+          <button
+            type="button"
+            class="search-btn"
+            onclick="filterProducts()"
+          >
+            Search
+          </button>
+          </form>
+        </div>
+        </div>
+        <div class="col-md-3 clearfix">
+        <div class="header-ctn">
+          <div>
+          <a href="wishlist.html">
+            <i class="fa fa-heart-o"></i>
+            <span>Your Wishlist</span>
+            <div class="qty">2</div>
+          </a>
+          </div>
+          <div class="cart-icon">
+          <a href="/user/shopping-cart.html">
+            <i class="fa fa-shopping-cart"></i>
+            <span>Your Cart</span>
+            <div class="qty">0</div>
+            <!-- Initially set to 0 or fetch from server -->
+          </a>
+          </div>
+  
+          <div class="menu-toggle">
+          <a href="#">
+            <i class="fa fa-bars"></i>
+            <span>Menu</span>
+          </a>
+          </div>
+        </div>
+        </div>
+      </div>
+      </div>
+    </div>
+    </header>
+    <!-- /HEADER -->
+  
+   <!-- NAVIGATION -->
+      <nav id="navigation">
+        <div class="container">
+          <div id="responsive-nav">
+            <ul class="main-nav nav navbar-nav">
+              <li class="active"><a href="/user/home.html">Home</a></li>
+              <li><a href="products2.html">Categories</a></li>
+              <li><a href="wishlist.html">Wishlist</a></li>
+              
+              <li><a href="/contactus/contact.html">Contact</a></li>
+              <li><a href="/Aboutus/about.html">About</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- /NAVIGATION -->
+
+    
+
+    <!-- SECTION -->
+    <div class="section">
+      <!-- container -->
+      <div class="container">
+        <!-- row -->
+        <div class="row">
+          <!-- Product main img -->
+          <div class="col-md-5 col-md-push-2">
+            <div id="product-main-img">
+              <div class="product-preview">
+                <img id="main-image" src="" alt="Product Image" />
+              </div>
+
+              
+            </div>
+          </div>
+          <!-- /Product main img -->
+
+          <div class="col-md-2 col-md-pull-5">
+           
+          </div>
+         
+
+          <!-- Product details -->
+          <div class="col-md-5">
+            <div class="product-details">
+              <h2 class="product-name" id="product-name"></h2>
+              <div>
+                <div class="product-rating">
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star-o"></i>
+                </div>
+                <a class="review-link" href="#"
+                  >  Add your review</a
+                >
+              </div>
+              <div>
+                <!-- <h3 class="product-price">
+                  JD980.00 <del class="product-old-price">JD990.00</del>
+                </h3> -->
+
+                <h3 class="product-price" id="product-price"></h3>
+                
+                <span class="product-available">In Stock</span>
+              </div>
+
+              <div id="product-description"> <ul>
+                
+              </div>
+             
+              
+							<div class="add-to-cart">
+								<div class="qty-label">
+								
+									<div class="input-number">
+									
+									</div>
+								</div>
+								<button id =addcart class="add-to-cart-btn" ><i class="fa fa-shopping-cart"></i> add to cart</button>
+							</div>
+
+
+							
+              
+
+              <ul class="product-links">
+                <li>Share:</li>
+                <li>
+                  <a href="#"><i class="fa fa-facebook"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fa fa-twitter"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fa fa-google-plus"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fa fa-envelope"></i></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <!-- /Product details -->
+
+         <!-- Product tab -->
+<div class="col-md-12">
+  <div id="product-tab">
+      <!-- product tab nav -->
+      <ul class="tab-nav">
+          <li class="active"><a data-toggle="tab" href="#tab1">Description</a></li>
+          <li><a data-toggle="tab" href="#tab2">Details</a></li>
+          <li><a data-toggle="tab" href="#tab3">Reviews</a></li>
+      </ul>
+      <!-- /product tab nav -->
+
+      <!-- product tab content -->
+      <div class="tab-content">
+          <!-- tab1  -->
+     
+
+          <!-- tab2  -->
+          <div id="tab2" class="tab-pane fade in">
+              <div class="row">
+                  <div class="col-md-12">
+                      <p>
+                          Lorem ipsum dolor sit amet, consectetur adipisicing
+                          elit, sed do eiusmod tempor incididunt ut labore et
+                          dolore magna aliqua. Ut enim ad minim veniam, quis
+                          nostrud exercitation ullamco laboris nisi ut aliquip ex
+                          ea commodo consequat. Duis aute irure dolor in
+                          reprehenderit in voluptate velit esse cillum dolore eu
+                          fugiat nulla pariatur. Excepteur sint occaecat cupidatat
+                          non proident, sunt in culpa qui officia deserunt mollit
+                          anim id est laborum.
+                      </p>
+                  </div>
+              </div>
+          </div>
+          <!-- /tab2  -->
+
+          <!-- tab3  -->
+          <div id="tab3" class="tab-pane fade in">
+              <div class="row">
+                  <!-- Reviews -->
+                  <div class="col-md-9">
+                      <div id="reviews">
+                          <ul class="reviews" id="review-list">
+                              <!-- Reviews will be populated here by JavaScript -->
+                          </ul>
+                          <ul class="reviews-pagination">
+                              <!-- Pagination if needed -->
+                          </ul>
+                      </div>
+                  </div>
+                  <!-- /Reviews -->
+
+                  <!-- Review Form -->
+                  <div class="col-md-3" id="review-form">
+                      <form class="review-form" id="reviewForm">
+                          <textarea class="input" placeholder="Your Review" id="reviewText"></textarea>
+                          <div class="input-rating">
+                              <span>Your Rating: </span>
+                              <div class="stars">
+                                  <input id="star5" name="rating" value="5" type="radio"/><label for="star5"></label>
+                                  <input id="star4" name="rating" value="4" type="radio"/><label for="star4"></label>
+                                  <input id="star3" name="rating" value="3" type="radio"/><label for="star3"></label>
+                                  <input id="star2" name="rating" value="2" type="radio"/><label for="star2"></label>
+                                  <input id="star1" name="rating" value="1" type="radio"/><label for="star1"></label>
+                              </div>
+                          </div>
+                          <button type="submit" class="primary-btn">Submit</button>
+                      </form>
+                  </div>
+                  <!-- /Review Form -->
+              </div>
+          </div>
+          <!-- /tab3  -->
+      </div>
+      <!-- /product tab content  -->
+  </div>
+</div>
+<!-- /Product tab -->
+
+        </div>
+        <!-- /row -->
+      </div>
+      <!-- /container -->
+    </div>
+    <!-- /SECTION -->
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Section -->
+    <div class="section">
+      <!-- container -->
+      <div class="container">
+        <!-- row -->
+      
+      <div class="row">
+          <div class="col-md-12">
+            <div class="section-title text-center">
+              <h3 class="title">Related Products</h3>
+            </div>
+          </div>
+
+          <!-- product1 -->
+          <div class="col-md-3 col-xs-6">
+            <div class="product">
+              <div class="product-img">
+                <img src="images/gamingpc8.png" alt="" />
+                <div class="product-label">
+                  <span class="sale">-30%</span>
+                </div>
+              </div>
+              <div class="product-body">
+                <p class="product-category">Category</p>
+                <h3 class="product-name">
+                  <a href="#">product name goes here</a>
+                </h3>
+                <h4 class="product-price">
+                  JD300.00 <del class="product-old-price">JD990.00</del>
+                </h4>
+                <div class="product-rating"></div>
+                <div class="product-btns">
+                  <button class="add-to-wishlist">
+                    <i class="fa fa-heart-o"></i
+                    ><span class="tooltipp">add to wishlist</span>
+                  </button>
+                  <button class="add-to-compare">
+                    <i class="fa fa-exchange"></i
+                    ><span class="tooltipp">add to compare</span>
+                  </button>
+                  <button class="quick-view">
+                    <i class="fa fa-eye"></i
+                    ><span class="tooltipp">quick view</span>
+                  </button>
+                </div>
+              </div>
+              <div class="add-to-cart">
+                <button class="add-to-cart-btn">
+                  <i class="fa fa-shopping-cart"></i> add to cart
+                </button>
+              </div>
+            </div>
+          </div>
+          <!-- /product -->
+
+          <!-- product2 -->
+          <div class="col-md-3 col-xs-6">
+            <div class="product">
+              <div class="product-img">
+                <img src="images/gamingpc2png.png" alt="" />
+                <div class="product-label">
+                  <span class="new">NEW</span>
+                </div>
+              </div>
+              <div class="product-body">
+                <p class="product-category">Category</p>
+                <h3 class="product-name">
+                  <a href="#">product name goes here</a>
+                </h3>
+                <h4 class="product-price">
+                  JD980.00 <del class="product-old-price">JD990.00</del>
+                </h4>
+                <div class="product-rating">
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                </div>
+                <div class="product-btns">
+                  <button class="add-to-wishlist">
+                    <i class="fa fa-heart-o"></i
+                    ><span class="tooltipp">add to wishlist</span>
+                  </button>
+                  <button class="add-to-compare">
+                    <i class="fa fa-exchange"></i
+                    ><span class="tooltipp">add to compare</span>
+                  </button>
+                  <button class="quick-view">
+                    <i class="fa fa-eye"></i
+                    ><span class="tooltipp">quick view</span>
+                  </button>
+                </div>
+              </div>
+              <div class="add-to-cart">
+                <button class="add-to-cart-btn">
+                  <i class="fa fa-shopping-cart"></i> add to cart
+                </button>
+              </div>
+            </div>
+          </div>
+          <!-- /product -->
+
+          <div class="clearfix visible-sm visible-xs"></div>
+
+          <!-- product3 -->
+          <div class="col-md-3 col-xs-6">
+            <div class="product">
+              <div class="product-img">
+                <img src="images/gamingpc4.png" alt="" />
+              </div>
+              <div class="product-body">
+                <p class="product-category">Category</p>
+                <h3 class="product-name">
+                  <a href="#">product name goes here</a>
+                </h3>
+                <h4 class="product-price">
+                  JD980.00 <del class="product-old-price">JD990.00</del>
+                </h4>
+                <div class="product-rating">
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star-o"></i>
+                </div>
+                <div class="product-btns">
+                  <button class="add-to-wishlist">
+                    <i class="fa fa-heart-o"></i
+                    ><span class="tooltipp">add to wishlist</span>
+                  </button>
+                  <button class="add-to-compare">
+                    <i class="fa fa-exchange"></i
+                    ><span class="tooltipp">add to compare</span>
+                  </button>
+                  <button class="quick-view">
+                    <i class="fa fa-eye"></i
+                    ><span class="tooltipp">quick view</span>
+                  </button>
+                </div>
+              </div>
+              <div class="add-to-cart">
+                <button class="add-to-cart-btn">
+                  <i class="fa fa-shopping-cart"></i> add to cart
+                </button>
+              </div>
+            </div>
+          </div>
+          <!-- /product -->
+
+          <!-- product4 -->
+          <div class="col-md-3 col-xs-6">
+            <div class="product">
+              <div class="product-img">
+                <img src="images/gamingpc5.png" alt="" />
+              </div>
+              <div class="product-body">
+                <p class="product-category">Category</p>
+                <h3 class="product-name">
+                  <a href="#">product name goes here</a>
+                </h3>
+                <h4 class="product-price">
+                  JD980.00 <del class="product-old-price">JD990.00</del>
+                </h4>
+                <div class="product-rating"></div>
+                <div class="product-btns">
+                  <button class="add-to-wishlist">
+                    <i class="fa fa-heart-o"></i
+                    ><span class="tooltipp">add to wishlist</span>
+                  </button>
+                  <button class="add-to-compare">
+                    <i class="fa fa-exchange"></i
+                    ><span class="tooltipp">add to compare</span>
+                  </button>
+                  <button class="quick-view">
+                    <i class="fa fa-eye"></i
+                    ><span class="tooltipp">quick view</span>
+                  </button>
+                </div>
+              </div>
+              <div class="add-to-cart">
+                <button class="add-to-cart-btn">
+                  <i class="fa fa-shopping-cart"></i> add to cart
+                </button>
+              </div>
+            </div>
+          </div>
+          <!-- /product -->
+        </div>
+        <!-- /row -->
+      </div>
+      <!-- /container -->
+    </div>
+    <!-- /Section -->
+
+    <!-- NEWSLETTER -->
+    <div id="newsletter" class="section">
+      <!-- container -->
+      <div class="container">
+        <!-- row -->
+        <div class="row">
+          <div class="col-md-12">
+            <div class="newsletter">
+              <p>Sign Up for the <strong>NEWSLETTER</strong></p>
+              <form>
+                <input
+                  class="input"
+                  type="email"
+                  placeholder="Enter Your Email"
+                />
+                <button class="newsletter-btn">
+                  <i class="fa fa-envelope"></i> Subscribe
+                </button>
+              </form>
+              <ul class="newsletter-follow">
+                <li>
+                  <a href="#"><i class="fa fa-facebook"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fa fa-twitter"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fa fa-instagram"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fa fa-pinterest"></i></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <!-- /row -->
+      </div>
+      <!-- /container -->
+    </div>
+    <!-- /NEWSLETTER -->
+
+    <!-- FOOTER -->
+    <footer class="bg-dark text-white py-4">
+      <div class="container text-center">
+        <div class="row">
+          <div class="col payment-options">
+            <img src="images/wecart.png" alt="WeCart" class="img-fluid" />
+            <img src="images/apple_pay.png" alt="Apple Pay" class="img-fluid" />
+            <img src="images/zelle.png" alt="Zelle" class="img-fluid" />
+            <img src="images/cash.png" alt="Cash" class="img-fluid" />
+            <img
+              src="images/mastercard.png"
+              alt="MasterCard"
+              class="img-fluid"
+            />
+            <img src="images/visa.png" alt="Visa" class="img-fluid" />
+            <img src="images/PayPal.png" alt="PayPal" class="img-fluid" />
+          </div>
+        </div>
+        <ul class="footer-links list-inline mt-3">
+          <li class="list-inline-item"><a href="#">Home Page</a></li>
+          <li class="list-inline-item"><a href="#">About Us</a></li>
+          <li class="list-inline-item"><a href="#">My Account</a></li>
+          <li class="list-inline-item"><a href="#">Privacy Policy</a></li>
+          <li class="list-inline-item"><a href="#">Delivery</a></li>
+          <li class="list-inline-item"><a href="#">Refund</a></li>
+          <li class="list-inline-item"><a href="#">Terms & Conditions</a></li>
+        </ul>
+      </div>
+    </footer>
+    <!-- /FOOTER -->
+  
+ 
+    <!-- jQuery Plugins -->
+    <script src="js2/jquery.min.js"></script>
+    <script src="js2/bootstrap.min.js"></script>
+    <script src="js2/slick.min.js"></script>
+    <script src="js2/nouislider.min.js"></script>
+    <script src="js2/jquery.zoom.min.js"></script>
+    <script src="js2/main.js"></script>
+
+
+
+    <script>
+    
+    // Fetch details for a specific product and update the UI accordingly
+// JavaScript for fetching product details and updating UI
+function fetchProductDetails(productId) {
+    fetch(`http://localhost:5148/api/Products/${productId}`)
+        .then(response => {
+            if (!response.ok) {
+                throw new Error('Failed to fetch product details');
+            }
+            return response.json();
+        })
+        .then(product => {
+            // Image and product information updates
+            const imgElement = document.querySelector('#product-main-img .slick-slide img');
+            imgElement.src = `http://localhost:5148${product.image}`;
+            $('#product-main-img').slick('setPosition');
+
+            document.getElementById('product-name').textContent = product.name;
+            document.getElementById('product-price').innerHTML = `JD${product.price.toFixed(2)}`;
+            document.getElementById('product-description').innerHTML = product.description;
+
+            // Update all "Add to Cart" buttons
+            document.querySelectorAll('.add-to-cart-btn').forEach(button => {
+                button.onclick = () => addToCart(product.productId, product.name, product.price, `http://localhost:5148${product.image}`);
+            });
+        })
+        .catch(error => console.error('Error loading product details:', error));
+}
+
+document.addEventListener('DOMContentLoaded', () => {
+    const productId = localStorage.getItem('selectedProductId');
+    if (productId) {
+        fetchProductDetails(productId);
+    }
+});
+
+
+document.addEventListener('DOMContentLoaded', () => {
+    const productId = localStorage.getItem('selectedProductId');
+    if (productId) {
+        fetchProductDetails(productId);
+    }
+});
+
+function addToCart(productId, name, price, imageUrl) {
+    console.log('Attempting to add to cart', { productId, name, price, imageUrl });
+    const userId = localStorage.getItem("userId");
+    if (!userId) {
+        Swal.fire("You must be logged in to add items to the cart.", "", "error");
+        return;
+    }
+
+    const cartData = {
+        ProductId: productId,
+        UserId: parseInt(userId),
+        Quantity: 1,
+    };
+
+    fetch("http://localhost:5148/api/Cart/CreateNewCartItem", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(cartData),
+    })
+    .then(response => {
+        if (!response.ok) throw new Error("Failed to add item to cart.");
+        return response.json();
+    })
+    .then(data => {
+        Swal.fire(data.msg || "Item added to cart successfully!", "", "success");
+        updateCartCount();
+    })
+    .catch(error => {
+        console.error("Error adding item to cart:", error);
+        Swal.fire("Failed to add item to cart.", error.message, "error");
+    });
+}
+
+function updateCartCount() {
+    const userId = localStorage.getItem("userId");
+    if (!userId) return;
+
+    fetch(`http://localhost:5148/api/Cart/GetCartItemCount/${userId}`)
+        .then(response => response.json())
+        .then(count => {
+            const cartCountElement = document.querySelector(".cart-icon .qty");
+            if (cartCountElement) {
+                cartCountElement.textContent = count;
+            }
+        })
+        .catch(error => {
+            console.error("Error fetching cart count:", error);
+            alert('Failed to fetch cart count. See console for details.');
+        });
+}
+</script>
+
+
+
+
+ 
+
+
+
+
+  <script>
+    updateBreadcrumb(); // Update breadcrumb on page load
+    function updateBreadcrumb() {
+      const categoryName = localStorage.getItem("selectedCategoryName");
+      const breadcrumbTree = document.querySelector(".breadcrumb-tree");
+      if (categoryName) {
+        breadcrumbTree.innerHTML = `
+                <li><a href="/User/home.html">Home</a></li>
+                <li><a href="/User/products.html"> Categories</a></li>
+                <li class="active">${categoryName}</li>
+                
+
+            `;
+      }
+    }</script>
+
+
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+     // Retrieve the product ID from localStorage
+     const productId = localStorage.getItem('selectedProductId'); // Ensure this is the correct key for your product ID
+ 
+     const reviewForm = document.getElementById('reviewForm');
+     const reviewList = document.getElementById('review-list');
+ 
+     // Function to fetch reviews and display them
+     function fetchReviews() {
+         fetch(`http://localhost:5148/api/Products/${productId}/comments`)
+             .then(response => {
+                 if (response.ok) {
+                     return response.json();
+                 } else {
+                     throw new Error();
+                 }
+             })
+             .then(data => {
+                 if (data.length === 0) {
+                     reviewList.innerHTML = "<p>No reviews yet.</p>";
+                 } else {
+                     reviewList.innerHTML = data.map(review => `
+                         <li>
+                             <div class="review-heading">
+                                 <h5 class="name">${review.userName}</h5>
+                                 <p class="date">${new Date(review.date).toLocaleString()}</p>
+                             </div>
+                             <div class="review-body">
+                                 <p>${review.comment1}</p>
+                             </div>
+                         </li>
+                     `).join('');
+                 }
+             })
+             .catch(error => {
+                 console.error('Error loading reviews:', error);
+                 reviewList.innerHTML = `<p>No Reviews yet. ${error.message}</p>`;
+             });
+     }
+ 
+     // Function to submit a new review
+     reviewForm.addEventListener('submit', function (event) {
+         event.preventDefault();
+         const reviewText = document.getElementById('reviewText').value;
+         const rating = document.querySelector('input[name="rating"]:checked').value;
+ 
+         const reviewData = {
+             userId: parseInt(localStorage.getItem('userId')), // Ensure the userId is an integer
+             productId: productId, // Use the dynamically fetched product ID
+             comment1: reviewText,
+             rating: parseInt(rating)
+         };
+ 
+         fetch(`http://localhost:5148/api/Products/${productId}/comment`, {
+             method: 'POST',
+             headers: {
+                 'Content-Type': 'application/json'
+             },
+             body: JSON.stringify(reviewData)
+         })
+         .then(response => {
+             if (response.ok) {
+                 fetchReviews(); // Refresh the list of reviews
+                 reviewForm.reset(); // Reset the form fields
+                 alert('Review submitted successfully!');
+             } else {
+                 return response.json().then(data => {
+                     throw new Error(data.message || 'Failed to submit review');
+                 });
+             }
+         })
+         .catch(error => {
+             console.error('Error submitting review:', error);
+             alert(`Failed to submit review: ${error.message}`);
+         });
+     });
+ 
+     // Initially fetch reviews on page load
+     fetchReviews();
+ });
+ 
+ 
+ 
+ </script>
+
+<script src="/User/home.js"></script>
+
+
+
+
+
+  </body>
+</html>

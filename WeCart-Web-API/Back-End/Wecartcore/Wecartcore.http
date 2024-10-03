@@ -1,0 +1,6 @@
+@Wecartcore_HostAddress = http://localhost:5148
+
+GET {{Wecartcore_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
